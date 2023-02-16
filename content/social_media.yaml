@@ -1,0 +1,15 @@
+- platform:
+    name: facebook
+    profile_url: https://www.facebook.com/karan-popat/
+    page_url: https://www.facebook.com/pages/karan-popat/
+    icon: images/social-media-icons/facebook.svg
+- platform:
+    name: instagram
+    profile_url: https://www.instagram.com/karan-popat/
+    page_url:
+    icon: images/social-media-icons/instagram.svg
+- platform:
+    name: twitter
+    profile_url: https://www.twitter.com/karan-popat/
+    page_url:
+    icon: images/social-media-icons/twitter.svg

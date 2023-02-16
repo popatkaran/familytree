@@ -1,0 +1,34 @@
+fname: fname-30
+lname: lname-30
+dob: March 13, 1992
+dod: March 14, 1992
+pob: Rajkot Gujarat
+pol: Berlin Germany
+mobileNo: +49-17674126037
+profilePicture: 
+cover: 
+name: fname-30 lname-30
+identifier: member_fname-30_lname-30
+intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+  tincidunt consectetur est, sit amet finibus neque. Sed egestas lectus mauris,
+  eu rutrum justo feugiat eget. Aliquam a eros vel massa egestas tempus nec ac
+  tellus.
+relationships:
+  - relation: parents
+    members:
+      - member: member_fname-34_lname-34
+      - member: member_fname-35_lname-35
+  - relation: siblings
+    members:
+      - member: member_fname-33_lname-33
+      - member: member_fname-32_lname-32
+  - relation: spouse
+    members:
+      - member: member_fname-31_lname-31
+        from: 2017
+        to: 
+  - relation: children
+    members:
+      - member: member_fname-37_lname-37
+        from: 2017
+        to: 

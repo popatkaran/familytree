@@ -1,0 +1,491 @@
+/*** GREENBIRD general ***/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900");
+@import url("../css/bootstrap.min.css");
+
+:root {
+  --blue-l1: #669bf4;
+  --blue-l2: #8bb3f7;
+  --blue-l3: #afcbf9;
+  --blue-l4: #d4e3fc;
+  --blue-l5: #f9fbff;
+  --color: #121212;
+  --color-blockquote: #cd5c5c;
+  --background: var(--blue-l5);
+  --background-card: #ffffff;
+  --background-pre: #282828;
+  --dark-text-color: #1f1f1f;
+  --highlight-light-text: #949cdf;
+  --red: #ff8272;
+  --green: #b4fa72;
+  --blue: #a5d5fe;
+  --cyan: #d0d1fe;
+  --green1: #71dc2a;
+  --inviqa-blue: #334982;
+  --orange: #fccc76;
+  --yellow: #fefdc2;
+  --teal: #74e0e6;
+  --grey: #f4f6fb;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color) var(--background);
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px; /* roundness of the scroll thumb */
+  border: 6px solid var(--color); /* creates padding around scroll thumb */
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  background: var(--background);
+}
+
+.transition{
+  transition: all .2s;
+  -moz-transition: all .2s;
+  -webkit-transition:all .2s;
+  -o-transition: all .2s;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  background: var(--background);
+  color: var(--color);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-l1);
+}
+
+a:hover {
+  color: var(--background-pre);
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/** HEADER **/
+.header {
+  width: 30vw;
+  padding: 20px 0 0 20px;
+  position: fixed;
+  height: 120px;
+  z-index: 100;
+}
+
+/*** GREENBIRD MEMBER ***/
+
+/** cover **/
+.member-cover {
+  background: var(--blue-l5);
+  overflow: hidden;
+  height: 100vw;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.resize_fit_center {
+  max-width: 100%;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.member-cover-name {
+  bottom: 40px;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--blue-l5);
+  background: var(--background-pre);
+  padding: 20px 40px 20px 20px;
+  opacity: 0.6;
+}
+
+/** member information **/
+.member-details {
+  background: var(--white);
+  /* max-height: 100vh;
+  overflow-y: scroll; */
+}
+
+.badge {
+  padding: 15px;
+  margin: 0 5px 0 0;
+  border-radius: 0;
+}
+
+.member-detail-title {
+  font-weight: 500;
+}
+
+.member-name {
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.member-timeline {
+  padding-bottom: 20px;
+}
+
+.member-intro {
+  font-size: 18px;
+}
+
+.read-more-button {
+  text-transform: uppercase;
+  font-size: 12px;
+  float: right;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  border: 1px solid var(--blue-l3);
+}
+
+.member-info {
+  min-height: max-content;
+  padding: 40px 40px 20px 40px;
+}
+
+/** relatives **/
+.relative-section {
+  min-height: 50vh;
+  padding: 20px 40px 20px 40px;
+}
+
+.relative-section.parents {
+  color: var(--blue);
+}
+
+.relative-section.children {
+  color: var(--green);
+}
+
+.relative-section.sibllings {
+  color: var(--orange);
+}
+
+.relative-section.spouse, .relative-section.spouses{
+  color: var(--red);
+}
+
+.relative-type {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card {
+  /* background-color: var(--blue-l5); */
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 20px;
+  position: relative;
+  border: 0;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 8px;
+}
+
+.card-big-shadow {
+  position: relative;
+  padding: 20px 0 0 0;
+}
+
+.card .content {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-picture {
+  background: transparent;
+  border: none;
+}
+
+.profile-name {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  height: min-content;
+}
+
+
+
+/***********************/
+.timeline-container::before,
+.list-updates::before,
+.list-updates .update::before {
+  content: "";
+}
+.timeline-container::before,
+.list-updates::before,
+.list-updates .update::before,
+.all-updates {
+  position: absolute;
+}
+.timeline-container,
+.list-updates .update,
+.list-updates {
+  position: relative;
+}
+
+.list-updates {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.list-updates::before {
+  height: 100%;
+  width: 1px;
+  background-color: var(--background-pre);
+  left: -20px;
+}
+
+.list-updates .update::before {
+  height: 20px;
+  width: 20px;
+  background-color: var(--background-pre);
+  top: 50%;
+  transform: translateY(-50%);
+  left: -60px;
+}
+
+/**********************/
+
+/*** GREENBIRD footer ***/
+
+.footer {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--black);
+  color: white;
+}
+
+.social-media-links {
+  text-align: center;
+}
+
+.social-media-links ul {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.footer ul li a {
+  color: #8c8c94;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 0;
+}
+
+.copyright-text a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.developer-footprints {
+  padding: 20px;
+}
+
+/*** GREENBIRD search ***/
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.search-widget {
+  min-height: 50vh;
+  padding: 40px;
+  margin-top: 120px;
+  margin-bottom: auto;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--blue);
+  font-size: 18px;
+  padding: 10px;
+  background: transparent;
+}
+input#header-search:focus {
+  outline: none;
+}
+
+.search-result {
+  padding: 0;
+  margin: 0;
+}
+
+.search-result li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.search-result li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/******* RESPONSIVE *********/
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 100vw;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 100vw;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 100vw;
+  }
+  .member-cover {
+    height: 100vh;
+  }
+  .member-details {
+    background: var(--white);
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 100vw;
+  }
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 100vw;
+  }
+  .footer {
+    padding: 0;
+    margin: 0;
+  }
+}

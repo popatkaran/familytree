@@ -1,0 +1,39 @@
+{
+  "name": "myfamily2023",
+  "version": "1.0.0",
+  "private": true,
+  "description": "myfamily2023",
+  "author": "Karan Popat",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop -p 1302",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.2.1",
+    "gatsby": "^5.4.2",
+    "gatsby-plugin-google-gtag": "^5.4.0",
+    "gatsby-plugin-image": "^3.4.0",
+    "gatsby-plugin-local-search": "^2.0.1",
+    "gatsby-plugin-manifest": "^5.4.0",
+    "gatsby-plugin-mdx": "^5.4.0",
+    "gatsby-plugin-react-helmet": "^6.4.0",
+    "gatsby-plugin-sharp": "^5.4.0",
+    "gatsby-plugin-sitemap": "^6.4.0",
+    "gatsby-source-filesystem": "^5.4.0",
+    "gatsby-transformer-remark": "^6.4.0",
+    "gatsby-transformer-sharp": "^5.4.0",
+    "gatsby-transformer-yaml": "^5.4.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-burger-menu": "^3.0.9",
+    "react-dom": "^18.2.0",
+    "react-use-flexsearch": "^0.1.1",
+    "read-more-react": "^1.0.10"
+  }
+}
