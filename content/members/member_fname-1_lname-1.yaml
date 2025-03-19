@@ -1,18 +1,15 @@
-fname: fname-1
-lname: lname-1
-dob: March 13, 1992
-dod: March 14, 1992
+fname: Vallabhdas
+lname: Popat
+dob: May 01, 1924
+dod: May 24, 2001
 pob: Rajkot Gujarat
-pol: Berlin Germany
-mobileNo: +49-17674126037
-profilePicture: ../images/members/fname-1_lname-1.png
-cover: ../images/members/fname-1_lname-1.png
-name: fname-1 lname-1
-identifier: member_fname-1_lname-1
-intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-  tincidunt consectetur est, sit amet finibus neque. Sed egestas lectus mauris,
-  eu rutrum justo feugiat eget. Aliquam a eros vel massa egestas tempus nec ac
-  tellus.
+pol: Rajkot Gujarat
+mobileNo:
+profilePicture:
+cover:
+name: Vallabhdas Popat
+identifier: vkp01051924
+intro: He was a kind and humble person, father of 5 children and responsible husband. He worked as Account Executive at Indian Railway and after retirement served at Lohana Mahajan Vadi Rajkot.
 relationships:
   - relation: parents
     members:
@@ -24,11 +21,11 @@ relationships:
       - member: member_fname-3_lname-3
   - relation: spouse
     members:
-      - member: member_fname-2_lname-2
-        from: 2017
-        to: 
+      - member: pvp01051925
   - relation: children
     members:
-      - member: member_fname-8_lname-8
-        from: 2017
-        to: 
+      - member: mvp29071955
+      - member: dvp25071959
+      - member: bvp01011962
+      - member: pvp01011963
+      - member: uvp01011964

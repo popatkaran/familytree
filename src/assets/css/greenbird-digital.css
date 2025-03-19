@@ -38,8 +38,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
-  height: 12px;
+  width: 0px; /* width of the entire scrollbar */
+  height: 0px;
 }
 
 ::-webkit-scrollbar-track {

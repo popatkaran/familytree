@@ -1,18 +1,15 @@
-fname: fname-3
-lname: lname-3
-dob: March 13, 1992
-dod: March 14, 1992
+fname: Mukesh
+lname: Popat
+dob: July 29, 1955
+dod:
 pob: Rajkot Gujarat
-pol: Berlin Germany
-mobileNo: +49-17674126037
-profilePicture: ../images/members/fname-3_lname-3.png
-cover: ../images/members/fname-3_lname-3.png
-name: fname-3 lname-3
-identifier: member_fname-3_lname-3
-intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-  tincidunt consectetur est, sit amet finibus neque. Sed egestas lectus mauris,
-  eu rutrum justo feugiat eget. Aliquam a eros vel massa egestas tempus nec ac
-  tellus.
+pol: Rajkot Gujarat
+mobileNo:
+profilePicture:
+cover:
+name: Mukesh Popat
+identifier: mvp29071955
+intro: He is a businessman.
 relationships:
   - relation: parents
     members:
@@ -26,9 +23,9 @@ relationships:
     members:
       - member: member_fname-4_lname-4
         from: 2017
-        to: 
+        to:
   - relation: children
     members:
       - member: member_fname-10_lname-10
         from: 2017
-        to: 
+        to:

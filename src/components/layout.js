@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import '../assets/css/greenbird-digital.css'
 
 import Header from './header/header'
+import Footer from './footer/footer'
 
 class Layout extends Component {
   render() {
@@ -45,6 +46,7 @@ class Layout extends Component {
             <div className="page-wrapper d-flex flex-column min-vh-100">
               <Header siteInfo={data.site.siteMetadata} />
               {children}
+              <Footer siteInfo={data.site.siteMetadata} />
             </div>
           </>
         )}

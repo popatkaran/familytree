@@ -1,18 +1,15 @@
-fname: fname-2
-lname: lname-2
-dob: March 13, 1992
-dod: March 14, 1992
+fname: Pushpa
+lname: Popat
+dob: May 01, 1925
+dod: December 10, 2019
 pob: Rajkot Gujarat
-pol: Berlin Germany
-mobileNo: +49-17674126037
-profilePicture: ../images/members/fname-2_lname-2.png
-cover: ../images/members/fname-2_lname-2.png
-name: fname-2 lname-2
-identifier: member_fname-2_lname-2
-intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-  tincidunt consectetur est, sit amet finibus neque. Sed egestas lectus mauris,
-  eu rutrum justo feugiat eget. Aliquam a eros vel massa egestas tempus nec ac
-  tellus.
+pol: Rajkot Gujarat
+mobileNo:
+profilePicture:
+cover:
+name: Pushpa Popat
+identifier: pvp01051925
+intro: She was a kind and humble person, mother of 5 children and responsible wife. She spent her life taking care of her children as housewife and making her husbands life easier.
 relationships:
   - relation: parents
     members:
@@ -24,11 +21,11 @@ relationships:
       - member: member_fname-4_lname-4
   - relation: spouse
     members:
-      - member: member_fname-3_lname-3
-        from: 2017
-        to: 
+      - member: vkp01051924
   - relation: children
     members:
-      - member: member_fname-9_lname-9
-        from: 2017
-        to: 
+      - member: mvp29071955
+      - member: dvp25071959
+      - member: bvp01011962
+      - member: pvp01011963
+      - member: uvp01011964
